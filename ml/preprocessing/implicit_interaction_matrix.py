@@ -1,5 +1,3 @@
-# ml/preprocessing/implicit_interaction_matrix.py
-
 import os
 import pickle
 import pandas as pd

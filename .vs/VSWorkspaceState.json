@@ -1,9 +1,16 @@
 {
   "ExpandedNodes": [
     "",
+    "\\config",
     "\\ml",
-    "\\recommender"
+    "\\obj\\Debug",
+    "\\recommender\\management\\commands",
+    "\\recommender\\migrations",
+    "\\recommender\\static\\recommender",
+    "\\recommender\\static\\recommender\\css",
+    "\\recommender\\static\\recommender\\img",
+    "\\recommender\\static\\recommender\\js"
   ],
-  "SelectedNode": "\\ml\\preprocessing",
+  "SelectedNode": "\\ml\\pipelines",
   "PreviewInSolutionExplorer": false
 }

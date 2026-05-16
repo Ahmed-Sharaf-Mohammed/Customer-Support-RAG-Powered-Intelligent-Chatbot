@@ -1,5 +1,3 @@
-# ml/preprocessing/explicit_interaction_matrix.py
-
 import os
 import pickle
 import scipy.sparse as sp

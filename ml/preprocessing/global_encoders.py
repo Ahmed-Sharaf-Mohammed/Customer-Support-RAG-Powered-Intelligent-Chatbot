@@ -1,5 +1,3 @@
-# ml/preprocessing/global_encoders.py
-
 import os
 import pickle
 import pandas as pd
