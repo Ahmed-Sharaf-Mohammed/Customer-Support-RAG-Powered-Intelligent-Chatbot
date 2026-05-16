@@ -125,3 +125,9 @@ logs/
 # Migration files (uncomment if needed)
 # */migrations/*
 # !*/migrations/__init__.py
+*.sqlite
+*.vsidx
+*.vsidx
+*.vsidx
+*.vsidx
+*.sqlite
