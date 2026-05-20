@@ -1,26 +1,3 @@
-# ml/pipelines/retrain_pipeline.py
-"""
-Retrain Pipeline
-────────────────
-Incrementally updates all models when new user data arrives
-(new ratings, browsing events). Reuses the best hyperparams
-found during the last tuning run.
-
-Designed to be triggered:
-  • Manually   : python -m ml.pipelines.retrain_pipeline
-  • Via Celery  : call retrain_pipeline.run() from a periodic task
-  • Via cron    : daily / weekly retrain
-
-Steps:
-  1  Update global encoders (new users/items extend classes)
-  2  Re-transform explicit interactions
-  3  Rebuild explicit matrix
-  4  Rebuild implicit matrix
-  5  Retrain models (with saved best params)
-  6  Evaluate and compare with previous report
-  7  Hot-reload inference singleton
-"""
-
 import os
 import json
 import time

@@ -1,19 +1,3 @@
-# ml/pipelines/train_pipeline.py
-"""
-Training Pipeline
-─────────────────
-Orchestrates model training and evaluation.
-
-  Step 0 (optional) — Hyperparameter tuning (grid search)
-  Step 1            — Train all three models
-  Step 2            — Evaluate and save report
-
-Run:
-    python -m ml.pipelines.train_pipeline          # uses default / tuned params
-    python -m ml.pipelines.train_pipeline --tune   # grid-search then train
-    python -m ml.pipelines.train_pipeline --quick-tune  # fast grid search
-"""
-
 import os
 import sys
 import json

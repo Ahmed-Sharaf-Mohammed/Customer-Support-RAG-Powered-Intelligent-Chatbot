@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/Ahmed/OneDrive/Desktop/AMIT/Project/Personalized-Recommendation-System-with-Feedback-Loop/mlruns/822822865919361131/b27ce457e96c492ca27a75b7e46982d5/artifacts
+end_time: 1779045917152
+entry_point_name: ''
+experiment_id: '822822865919361131'
+lifecycle_stage: active
+run_id: b27ce457e96c492ca27a75b7e46982d5
+run_name: retrain
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1779045916509
+status: 3
+tags: []
+user_id: Ahmed

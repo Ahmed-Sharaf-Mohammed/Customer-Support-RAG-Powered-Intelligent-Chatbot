@@ -1,17 +1,3 @@
-"""
-Preprocessing Pipeline
-──────────────────────
-Orchestrates all preprocessing steps in the correct order:
-
-  Step 1 — Build global user/item LabelEncoders
-  Step 2 — Transform explicit (rating) interactions
-  Step 3 — Build explicit sparse matrix
-  Step 4 — Build implicit sparse matrix (browsing logs, time-decay)
-
-Run:
-    python -m ml.pipelines.preprocess_pipeline
-"""
-
 import os
 import sys
 import time

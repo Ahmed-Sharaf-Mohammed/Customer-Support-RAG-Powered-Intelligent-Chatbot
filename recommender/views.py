@@ -287,7 +287,6 @@ def recommendations_api(request):
             exclude_item_ids=user_item_ids,
         )
 
-        # Return lightweight serialisable dicts
         from recommender.models import Item
         items = {i.item_id: i for i in Item.objects.filter(item_id__in=rec_ids)}
         recommendations = [

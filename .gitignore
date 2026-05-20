@@ -131,3 +131,4 @@ logs/
 *.vsidx
 *.vsidx
 *.sqlite
+*.sqlite
